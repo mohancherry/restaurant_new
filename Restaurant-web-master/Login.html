@@ -1,0 +1,122 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login{  
+            position: absolute;
+            top: 20%;
+            left: 30%;
+        width: 450px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{   
+    color: white;  
+}  
+#log{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: #F9F9F9;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#log:hover{
+    background-color: yellow;
+    color: black;
+
+}
+    </style>  
+     
+</head>    
+<body>    
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary">Restaurant Website</h3>
+            </div>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Menu.html" class="navbar-link">Menu</a>
+                </li>
+             
+                <li class="navbar-item">
+                    <a href="index.html#contact" class="navbar-link">Contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="SignUp.html" class="navbar-link">SignUp</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link-book">Book</a>
+                </li>
+            </ul>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here" onclick="location.href='Menu.html'">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <span> Forgot <a href="#">Password</a></span>
+           
+    </form>     
+</div>    
+</body>    
+</html> 
